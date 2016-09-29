@@ -9,7 +9,7 @@ button.onClick=function () {
   
   //render the variable in the correc span
   counter =counter+1;
-  var span = document.getElementByid ('count');
+  var span = document.getElementById ('count');
   span.innerHTML=counter.toString();
   
     
